@@ -1,32 +1,28 @@
-# image_processing
+# hello_world
 
 Description. 
-The package package_name is used to:
-	- Processing:
-		- Histogram matching
-		- Structural similarity
-		- Resize image
-	- Utils:
-		- Read image
-		- Save image
-		- Plot histogram
+The package hello_world is used to:
+	- eng-us:
+		- Display "hello world" in American English.
+	- pt-br:
+		- Display "hello world" in Brazilian Portuguese.
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
 
 ```bash
-pip install image_processing
+pip install hello_world
 ```
 
 ## Usage
 
 ```python
-from package_name.module1_name import file1_name
-file1_name.my_function()
+from hello_world.eng_us import hello_world
+hello_world.print()
 ```
 
 ## Author
-My_name
+alef_cleto
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
