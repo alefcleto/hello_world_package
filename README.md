@@ -2,9 +2,9 @@
 
 Description. 
 The package hello_world is used to:
-	- eng-us:
+	- ENG:
 		- Display "hello world" in American English.
-	- pt-br:
+	- PT:
 		- Display "hello world" in Brazilian Portuguese.
 ## Installation
 
@@ -17,7 +17,7 @@ pip install hello_world
 ## Usage
 
 ```python
-from hello_world.eng_us import hello_world
+from hello_world.eng import hello_world
 hello_world.print()
 ```
 
